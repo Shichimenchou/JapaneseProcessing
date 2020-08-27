@@ -1,0 +1,422 @@
+赤			あか				red
+秋			あき				autumn; fall
+飴			あめ				candy
+雨			あめ				rain
+姉			あね				older sister
+兄			あに				older brother
+青			あお				blue
+アパート						apartment
+朝			あさ				morning
+朝ご飯		あさごはん		breakfast
+焦って		あさって			day after tomorrow
+足			あし				foot; leg; paw; arm
+明日			あした			tomorrow
+頭			あたま			head
+後			あと				behind; after; remainder; left; also
+晩ご飯		ばんごはん		dinner; evening meal
+番号			ばんごう			number
+バス							bus
+バター						butter
+ベッド						bed
+勉強			べんきょう		study
+ボールペン					ball-point pen
+ボタン						button
+帽子			ぼうし			hat; cap
+文章			ぶんしょう		sentence
+豚肉			ぶたにく			pork
+病院			びょういん		hospital
+病気			びょうき			illness; disease; sickness
+茶色			ちゃいろ			brown
+茶碗			ちゃわん			rice bowl; tea cup
+父			ちち				father
+地下鉄		ちかてつ			subway
+地図			ちず				map
+台所			あいどころ		kitchen
+大学			だいがく			university; college
+出口			でぐち			exit; gateway; way out
+電気			でんき			electricity
+電車			でんしゃ			train; electric train
+電話			でんわ			telephone; call
+デパート						department store
+ドア							door
+どなた						who
+動物			どうぶつ			animal
+土曜日	　	どようび			Saturday
+絵			え				picture
+ええ							yes
+映画			えいが			movie; film
+映画館		えいがかん		movie theater; cinema
+英語			えいご			English
+駅			えき				station
+鉛筆			えんぴつ			pencil
+エレベーター					elevator
+フイルム						film
+フォーク						fork
+服			ふく				clothes
+二人			ふたり			two people; pair; couple
+二つ			ふたつ			two
+二日			ふつか			second of the month
+封筒			ふうとう			envelope
+冬			ふゆ				winter
+外国			がいこく			foreign country
+外国人		がいこくじん		foreigner
+学校			がっこう			school
+学生			がくせい			student
+玄関			げんかん			entrance
+元気			げんき			lively; healthy; energetic
+月曜日		げつようび		Monday
+銀行			ぎんこう			bank
+ギター						guitar
+五			ご				five
+午後			ごご				afternoon; p.m.
+ご飯			ごはん			meal; cooked rice
+午前			ごぜん			morning; a.m.
+グラム						gram
+牛肉			ぎゅうにく		beef
+牛乳			ぎゅうにゅう		milk
+歯			は				tooth
+八			はち				eight
+葉書			はがき			postcard
+母			はは				mother
+はい							yes
+灰皿			はいざら			ashtray
+箱			はこ				box; crate
+半			はん				half; semi-; half-past
+花			はな				flower
+鼻			はな				nose
+話			はなし			talk; speech; conversation; chat
+半分			はんぶん			half
+ハンカチ						handkerchief
+晴れ			はれ				clear weather
+春			はる				spring
+箸			はし				chopsticks
+橋			はし				bridge
+二十歳		はたち			twenty years old
+二十日		はつか			twentieth of the month
+辺			へん				area
+下手			へた				unskillful; poor; awkward
+部屋			へや				room
+左			ひだり			left
+東			ひがし			east
+飛行機		ひこうき			airplane
+暇			ひま				free time
+昼			ひる				noon; midday; daytime
+昼ご飯		ぎるごはん		lunch
+人			ひと				person; human
+一人			ひとり			one person; alone; single
+一つ			ひとつ			one thing; only
+ほか							other; the rest
+本			ほん				book; volume; script
+本棚			ほんだな			bookself; bookcase
+本当			ほんとう			truth; reality; fact
+ホテル						hotel
+百			ひゃく			hundred
+一			いち				one; best; first; start
+一番			いちばん			number one; first; best; most
+一日			いちにち			one day; all day
+家			いえ				house; residence; family
+池			いけ				pond
+いくら						how much; how many
+今			いま				now; soon
+意味			いみ				meaning; significance; sense
+妹			いもうと			younger sister
+犬			いぬ				dog
+入口			いりぐち			entrance; entry; gate
+色			いろ				color
+色々			いろいろ			various
+医者			いしゃ			doctor; physician
+一緒			いっしょ			together; at the same time; same; identical
+椅子			いす				chair
+五日			いつか			fifth of the month
+五つ			いつつ			five
+嫌			いや				unpleasant
+地引			じびき			dictionary
+自動車		じどうしゃ		car; automobile
+時間			じかん			time; hour
+辞書			じしょ			dictionary
+自転車		じてんしゃ		bicycle
+上手			じょうず			skillful; skilled; proficient; good
+授業			じゅぎょう		lesson; class work
+十			じゅう			ten
+かばん						bag; basket
+花瓶			かびん			vase
+角			かど				corner; angle
+鍵							key
+階段			かいだん			stairs; stairway; staircase
+買い物		かいもの			shopping
+会社			かいしゃ			company; corporation
+かめら						camera
+紙			かみ				paper
+漢字			かんじ			kanji
+カップ						cup
+体			からだ			body
+カレー						curry
+カレンダー					calendar
+傘			かさ				umbrella
+かた							kata
+家庭			かてい			household
+川			かわ				river; stream
+火曜日		かようび			Tuesday
+風邪			かぜ				cold
+風			かぜ				wind
+家族			かぞく			family
+警官			けいかん			policeman; police officer
+結婚			けっこん			marriage
+結構			けっこう			splendid; enough
+今朝			けさ				this morning
+木			き				tree; shrub; bush; wood; timber
+昨日			きのう			yesterday
+金曜日		きにょうび		Friday
+切符			きっぷ			ticket
+嫌い			きらい			hate
+キログラム					kilogram
+キロメートル					kilometer
+喫茶店		きっさてん		coffee shop; tearoom; cafe
+北			きた				north
+切手			きって			stamp
+こっち						this person; this way
+こちら						this way; this direction
+子供			こども			child
+声			こえ				voice
+九日			ここのか			ninth of the month	
+九つ			ここのつ			nine
+今晩			こんばん			tonight
+今月			こんげつ			this month
+今週			こんしゅう		this week
+コーヒー						coffee
+コート						coat
+コピー						copy; photocopy
+コップ						glass; tumblr
+言葉			ことば			word
+今年			ことし			this year
+交番			こうばん			police box
+紅茶			こうちゃ			black tea
+公園			こうえん			park
+交差点		こうさてん		intersection
+口			くち				mouth; opening
+果物			くだもの			fruit
+曇り			くもり			cloudiness; cloudy weather
+国			くに				country; state; region
+クラス						class
+黒			くろ				black
+車			くるま			car; automobile; vehicle
+薬			くすり			medicine
+靴			くつ				shoes
+靴下			くつした			socks
+享年			きょねん			last year
+今日			きょう			today
+兄弟			きょうだい		sibling; mate
+教室			きょうしつ		classroom
+九			きゅう			nine
+マッチ						match
+町			まち				town; block; neighborhood
+窓			まど				window
+前			まえ				previous; before; in front; ago
+毎朝			まいあさ			every morning
+毎晩			まいばん			every night
+毎日			まいにち			every day
+毎週			まいしゅう		every week
+毎年			まいとし			まいねん								every year; yearly; annually
+毎月			まいつき			every month; monthly
+万			まん				ten thousand
+万年筆		まんねんひつ		fountain pen
+真っ直ぐ		まっすぐ			straight ahead; direct
+目			め				eye
+メートル						meter
+眼鏡			めがね			glasses
+道			みち				road; street
+緑			みどり			green
+右			みぎ				right
+三日			みっか			third of the month
+耳			みみ				ear; hearing
+南			みなみ			south
+皆さん		みなさん			everyone
+みんあ						all; everyone; everybody
+店			みせ				store; shop; establishment
+三つ			みつ				three
+水			みず				water
+木曜日		もくようび		Thursday
+門			もん				gate
+問題			もんだい			problem; question
+物			もの				thing
+六日			むいか			sixth of the month
+向こう		むこう			over there
+村			むら				village
+六つ			むっつ			six
+ナイフ						knife
+中			なか				inside; in; within; center
+名前			なまえ			name; full name; given name
+七つ			ななつ			seven
+七日			なのか			seventh of the month
+夏			なつ				summer
+夏休み		なつやすみ		summer vacation; summer holiday
+猫			ねこ				cat
+ネクタイ						tie; necktie
+二			に				two; 2
+日曜日		にちようび		Sunday
+日記			にっき			diary; journal
+肉			にく				meat
+荷物			にもつ			luggage; baggage
+西			にし				west
+庭			にわ				garden
+飲み物		のみもの			drink; beverage
+ノート						notebook
+ニュース						news
+おばあさん					grandmother
+叔母さん		おばさん			aunt; old lady
+お弁当		おべんとう		lunch box; box lunch
+お茶			おちゃ			tea
+お風呂		おふろ			bath
+叔父さん		おじさん			uncle; old man; mister
+お母さん		おかあさん		mother; mom; mum; ma
+お金			おかね			money
+お菓子		おかし			confections; sweets; candy
+奥さん		おくさん			wife
+お巡りさん	おまわりさん		police officer
+同じ			おなじ			same
+お腹			おなか			stomach
+お姉さん		おねえさん		older sister; young lady; miss; ma'am
+音楽			おんがく			music
+お兄さん		おにいさん		older brother; young man; buddy
+女			おんあ			woman; female sex
+女の子		おんあのこ		girl; daughter; young woman
+大勢			おおぜい			crowd
+お酒			おさけ			alcohol
+お皿			おさら			plate; dish
+お手洗い		おてあらい		toilet; restroom; lavatory; bathroom
+男			おとこ			man; male
+男の子		おとこのこ		boy; male child
+大人			おとな			adult
+一昨日		おととい			day before yesterday
+一昨年		おととし			year before last
+お父さん		おとうさん		father; dad; papa; pa; pa; daddy
+弟			おとうと			youger brother
+パーチー						party
+パン							bread
+ページ						page
+ペン							pan
+ペット						pet
+ポケット						pocket
+ポスト						post
+プール						pool
+来月			らいげつ			next month
+来年			らいねん			next year
+来週			らいしゅう		next week
+ラジオ						radio
+零			れい				zero
+冷蔵庫		れいぞうこ		refrigerator
+レコード						record
+練習			れんしゅう		practice; practicing
+レストラン					restaurant
+六			ろく				six
+廊下			ろうか			corridor; hallway; passageway
+旅行			りょうこう		travel; trip; journey; tour
+料理			りょうり			cuisine
+両親			りょうしん		parents
+留学生		りゅうがくせい		overseas student; exchange student
+財布			さいふ			purse; wallet
+魚			さかな			fish
+先			さき				previous; prior; first; earlier
+作文			さくぶん			writing; composition
+三			さん				three
+散歩			さんぽ			walk; stroll
+再来年		さらいねん		year after next
+砂糖			さとう			sugar
+背			せ				height; stature; back; spine
+背広			せびろ			suit
+セーター						sweater; jumper
+生徒			せいと			pupil; student
+石鹸			せっけん			soap
+千			せん				thousand
+先月			せんげつ			last month
+先生			せんせい			teacher; instructor; master
+先週			せんしゅう		last week
+洗濯			せんたく			washing; laundry
+写真			しゃしん			photograph; photo
+シャツ						shirt
+シャワー						shower
+四			し				four
+七			しち				seven
+仕事			しごと			work; job; business
+新聞			しんぶん			newspaper
+塩			しお				salt
+白			しろ				white; innocence; innocent person
+下			した				below; down; under; bottom
+質問			しつもん			question; inquiry
+食堂			しょくどう		cafeteria; dining room
+醤油			しょうゆ			soy sauce
+宿題			しゅくだい		homework; assignment
+そば							near; beside
+空			そら				sky; air
+外			そと				outside; exterior
+掃除			そうじ			to clean; to sweep
+水曜日		すいようび		Wednesday
+スカート						skirt
+好き			すき				like
+少し			すこし			a little; small quantity; few; short distance
+スポーツ						sport; sports
+スポーン						spoon
+スリッパ						slippers
+ストーブ						heater; stove
+たばこ						tobacco; cigarette
+食べ物		たべもの			food
+大変			たいへん			very; greatly; terribly; serious; difficult
+大切			たいせつ			important; necessary; indispensable; beloved
+大使館		たいしかん		embassy
+沢山			たくさん			many
+タクシー						taxi
+卵			たまご			egg
+誕生日		たんじょうび		birthday
+縦			たて				length; height
+建物			たてもの			building
+手			て				hand; arm
+テーブル						table
+テープ						tape
+テープレコーダー				tape recorder
+他紙			たがみ			letter
+天気			てんき			weather; elements
+テレビ						TV; television
+テスト						test; quiz; examination
+戸			と				sliding door
+トイレ						toilet
+時計			とけい			watch; clock; timepiece
+時			とき				time; moment; occasion; chance
+時々			ときどき			sometimes; at times
+所			ところ			place
+友達			ともだち			friend; companion
+隣			となり			next door to
+十日			とおか			tenth of the month
+鳥			鳥				bird
+鶏肉			とりにく			chicken
+年			とし				year; age
+図書館		としょかん		library
+次			つぎ				next
+一日			ついたち			first of the month
+机			つくえ			desk
+上			うえ				above; up; over; top; surface
+海			うみ				sea
+後ろ			うしろ			back; behind; rear
+歌			うた				song
+上着			うわぎ			coat; jacket
+ワイシャツ					shirt
+山			やま				mountain; hill
+八百屋		やおや			greengrocer
+野菜			やさい			vegetable
+休み			やすみ			rest; vacation; holiday
+八つ			やっつ			eight
+四日			よっか			fourth of the month
+横			よこ				beside; side; width
+夜			よる				evening; night
+四つ			よつ				four
+洋服			ようふく			western clothes
+八日			ようか			eight of the month
+雪			ゆき				snow
+昨夜			ゆうべ			last night
+郵便局		ゆうびんきょく		post office
+夕方			ゆうがた			evening; dusk
+夕飯			ゆうはん			dinner
+有名			ゆうめい			famous
+雑誌			やっし			magazine
+全部			ぜんぶ			all
+ぜろ							zero
+ズボン						trouser; pants
