@@ -1,0 +1,108 @@
+合う			あう				to meet
+開く			あく				to open
+開ける		あける			to open
+あげる		あげる			to give
+遊ぶ			あそぶ			to play
+浴びる		あびる			to take a shower
+洗う			あらう			to wash
+有る			ある				to be					to exist
+ある			ある				to possess
+歩く			あるく			to walk
+言う			いう				to say					to tell
+行く			いく				to go
+いる			いる				need
+いる			いる				to exist
+入れる		いれる			to insert				to put in
+歌う			うたう			to sing
+生まれる		うまれる			to be born
+売る			うる				to sell
+起きる		おきる			to get up				to stand up
+おく			おく				to put
+送る			おくる			to send
+押す			おす				to push
+覚える		おぼえる			to memorize				to remember
+泳ぐ			およぐ			to swim
+降りる		おりる			to get off
+終わる		おわる			to end
+買う			かう				to buy
+返す			かえす			to return an object
+帰る			かえる			to return home
+かかる		かかる			to take time or money
+書く			かく				to write
+かける		かける			to wear
+かける		かける			to make a phone call
+貸す			かす				to lend
+冠る			かぶる			to put on a hat
+借りる		かりる			to borrow
+消える		きえる			to go out				to vanish
+聞く			きく				to listen
+切る			きる				to cut
+着る			きる				to wear					to put on
+来る			くる				to come
+消す			けす				to turn off				to switch off
+答える		こたえる			to answer
+困る			こまる			to be in trouble
+咲く			さく				to blossom
+さす			さす				to open an umbrella
+死ぬ			しぬ				to die
+閉まる		しまる			to close
+閉める		しめる			to close
+締める		しめる			to fasten a belt
+知る			しる				to know
+吸う			すう				to breath				to smoke
+住む			すむ				to live					to reside somewhere
+する			する				to do
+座る			すわる			to sit
+出す			だす				to take out				to hand in
+立つ			たつ				to stand
+頼む			たのむ			to ask					to request
+食べる		たべる			to eat
+違う			ちがう			to be different
+使う			つかう			to use
+疲れる		つかれる			to get tired
+着く			つく				to arrive
+作る			つくる			to make					to produce
+点ける		つける			to turn on
+勤める		つとめる			to work for someone
+出かける		でかける			to go out
+出来る		できる			can do
+出る			でる				to leave
+飛ぶ			とぶ				to fly
+止まる		とまる			to stop
+取る			とる				to take
+撮る			とる				to take a photo
+鳴く			なく				to sing
+並ぶ			ならぶ			to form a line
+並べる		ならべる			to line up
+なる			なる				to become
+脱ぐ			ぬぐ				to take off clothes		to strip
+寝る			ねる				to sleep
+登る			のぼる			to climb up
+飲む			のむ				to drink
+乗る			のる				to take					to ride
+入る			ひある			to enter
+履く			はく				to put on shoes
+始まる		はじまる			to begin				to start
+走る			はしる			to run
+働く			はたらく			to work
+話す			はなす			to talk					to speak
+張る			はる				to put something on		to stick
+晴れる		はれる			to clear up
+引く			ひく				to pull
+弾く			ひく				to play an instrument
+吹く			ふく				to blow (wind)
+降る			ふる				to fall (rain, snow)
+曲がる		まがる			to turn
+待つ			まつ				to wait
+磨く			みがく			to polish				to brush
+見せる		みせる			to show
+見る			みる				to see					to watch
+持つ			もつ				to have					to own
+休む			やすむ			to rest
+やる			やる				to do
+呼ぶ			よぶ				to call
+読む			よむ				to read
+分かる		わかる			to know					to understand
+忘れる		わすれる			to forget
+渡す			わたす			to hand over
+渡る			わたる			to cross
