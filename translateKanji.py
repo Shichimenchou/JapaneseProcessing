@@ -77,7 +77,7 @@ def processKanji(inp):
 		print(combinations)
 		read = input('Enter the proper reading: ')
 		definition = input('Enter the definition: ')
-		dictionary.append(inp.ljust(10) + read.ljust(25 - len(read)) + definition + '\n')
+		dictionary.append(inp.ljust(20 - len(inp)) + read.ljust(35 - len(read)) + definition + '\n')
 		dd = open('kanjiDict.txt', 'w')
 		for ddd in dictionary:
 			dd.write(ddd)
