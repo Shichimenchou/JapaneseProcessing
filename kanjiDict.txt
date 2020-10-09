@@ -10,3 +10,16 @@
 十月                じゅうがつ                         October
 十一月              じゅういちがつ                     November
 十二月              じゅうにがつ                       December
+大学                だいがく                           College, university
+先生                せんせい                           Teacher, master, doctor
+学校                がっこう                           School
+学生                がくせい                           Student
+学年                がくねん                           Academic year, grade in school
+学力                がくりょく                         Scholarly ability, knowledge
+雨                  あめ                               Rain
+花                  はな                               Flower
+人                  ひと                               Person
+山                  やま                               Mountain
+目                  め                                 Eye
+耳                  みみ                               Ear
+円                  えん                               Yen
