@@ -5,53 +5,89 @@ katakana = ['ア', 'イ', 'ウ', 'エ', 'オ', 'カ', 'キ', 'ク', 'ケ', 'コ'
 numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '１', '２', '３', '４', '５', '６', '７', '８', '９', '０']
 punctuation = ['！', '＠', '＃', '＄', '％', '＾', '＆', '＊', '（', '）', 'ー', '＿', '＝', '＋', '「', '」', '￥', '；', '’', '、', '。', '・', '＜', '＞', '？', '｛', '｝', '｜', '｀', '〜', '/', '*', '-', '　', '	']
 
+on = open('onKanjiDict.txt', 'r')
+kun = open('kunKanjiDict.txt', 'r')
+#kat = open('katakanaDict.txt', 'r')
+#hir = open('hiraganaDict.txt', 'r')
+
+ON = on.readlines()
+on.close()
+for i in range(0, len(ON)):
+    ON[i] = ON[i].split()
+
+KUN = KUN.readlines()
+kun.close()
+for i in range(0, len(KUN)):
+    KUN[i] = KUN[i].split()
+
+KAT = kat.readlines()
+kat.close()
+for i in range(0, len(KAT)):
+    KAT[i] = KAT[i].split()
+
+HIR = hir.readlines()
+hir.close()
+for i in range(0, len(HIR)):
+    HIR[i] = HIR[i].split()
+
+
 arg = ''
 for i in range(1, len(sys.argv)):
     arg += sys.argv[i]
 
 def findSubject(arg):
-    possibleSubjects = []
+    possibleSubjects1 = []
     for i in range(0, len(arg)):
         if arg[i] == 'は':
-            possibleSubjects.append(arg[0:i-1])
+            possibleSubjects1.append(arg[0:i-1])
 
-    for s in possibleSubjects:
+    possibleSubjects2 = []
+    for s in possibleSubjects1:
         if s[0] in katakana:
             # TODO: search through katakana dictionary
         elif s[0] in hiragana:
             # TODO: search through hiragana dictionary
         else:
-            # TODO: search through onKanjiDict.txt
-            # TODO: search through kunKanjiDict.txt
+            for O in ON:
+                if O[0] == s:
+                    possibleSubjects2.append(s)
+            for K in KUN:
+                if K[0] == s:
+                    possibleSubjects2.append(s)
 
-    if len(possibleSubjects) >= 1:
-        print('Possible subject(s): ' + str(possibleSubjects))
-        sub = input('Please enter the number of the correct subject from 0 to ' + str(len(possibleSubjects)) + ': ')
-        if sub != '' and sub >= 0 and sub < len(possibleSubjects):
-            subject = possibleSubjects[sub]
+    if len(possibleSubjects2) >= 1:
+        print('Possible subject(s): ' + str(possibleSubjects2))
+        sub = input('Please enter the number of the correct subject from 0 to ' + str(len(possibleSubjects2)) + ': ')
+        if sub != '' and sub >= 0 and sub < len(possibleSubjects2):
+            subject = possibleSubjects2[sub]
             return subject
         else:
             return ''
 
 def findObject(arg):
-    possibleObjects = []
+    possibleObjects1 = []
     for i in range(0, len(arg)):
         if arg[i] == 'が':
-            possibleSubjects.append(arg[0:i-1])
+            possibleObjects1.append(arg[0:i-1])
 
-    for o in possibleObjects:
+    possibleObjects2 = []
+    for o in possibleObjects1:
         if o[0] in katakana:
             # TODO: search through katakana dictionary
         elif o[0] in hiragana:
             # TODO: search through hiragana dictionary
         else:
-        # TODO: search through onKanjiDict.txt
-        # TODO: search through kunKanjiDict.txt
-    if len(possibleObjects) >= 1:
-        print('Possible subject(s): ' + str(possibleObjects))
-        ob = input('Please enter the number of the correct subject from 0 to ' + str(len(possibleObjects)) + ': ')
-        if ob != '' and ob >= 0 and ob < len(possibleObjects):
-            obj = possibleSubjects[ob]
+            for O in ON:
+                if O[0] == o:
+                    possibleObjects2.append(o)
+            for K in KUN:
+                if K[0] == o:
+                    possibleObjects2.append(o)
+    if len(possibleObjects2) >= 1:
+        print('Possible objects(s): ' + str(possibleObjects2))
+        ob = input('Please enter the number of the correct subject from 0 to ' + str(len(possibleObjects2)) + ': ')
+        if ob != '' and ob >= 0 and ob < len(possibleObjects2):
+            obj = possibleObjects2[ob]
             return obj
         else:
             return ''
