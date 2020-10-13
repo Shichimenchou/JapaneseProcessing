@@ -7,8 +7,8 @@ punctuation = ['！', '＠', '＃', '＄', '％', '＾', '＆', '＊', '（', '�
 
 on = open('onKanjiDict.txt', 'r')
 kun = open('kunKanjiDict.txt', 'r')
-#kat = open('katakanaDict.txt', 'r')
-#hir = open('hiraganaDict.txt', 'r')
+kat = open('katakanaDict.txt', 'r')
+hir = open('hiraganaDict.txt', 'r')
 
 ON = on.readlines()
 on.close()
@@ -44,9 +44,13 @@ def findSubject(arg):
     possibleSubjects2 = []
     for s in possibleSubjects1:
         if s[0] in katakana:
-            # TODO: search through katakana dictionary
+            for k in KAT:
+                if k[0] == s:
+                    possibleSubjects2.append(s)
         elif s[0] in hiragana:
-            # TODO: search through hiragana dictionary
+            for h in HIR:
+                if h[0] == s:
+                    possibleSubjects2.append(s)
         else:
             for O in ON:
                 if O[0] == s:
@@ -73,9 +77,13 @@ def findObject(arg):
     possibleObjects2 = []
     for o in possibleObjects1:
         if o[0] in katakana:
-            # TODO: search through katakana dictionary
+            for k in KAT:
+                if h[0] == s:
+                    possibleSubjects2.append(s)
         elif o[0] in hiragana:
-            # TODO: search through hiragana dictionary
+            for h in HIR:
+                if h[0] == s:
+                    possibleSubjects2.append(s)
         else:
             for O in ON:
                 if O[0] == o:
