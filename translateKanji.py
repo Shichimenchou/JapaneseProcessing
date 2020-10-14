@@ -10,11 +10,15 @@ arg = ''
 for i in range(1, len(sys.argv)):
 	arg += sys.argv[i]
 
-dct = open('kanjiDict.txt', 'r')
+odct = open('Dictionaries/onKanjiDict.txt', 'r')
 dictionary = dct.readlines()
-dct.close()
+odct.close()
 
-rdngs = open('kanjiReadings.txt', 'r')
+kdct = open('Dictionaries/kunKanjiDict.txt', 'r')
+dictionary += dct.readlines()
+kdct.close()
+
+rdngs = open('Kanji/kanjiReadings.txt', 'r')
 readings = rdngs.readlines()
 rdngs.close()
 
@@ -77,7 +81,7 @@ def processKanji(inp):
         read = input('Enter the proper reading: ')
         definition = input('Enter the definition: ')
         dictionary.append(inp.ljust(20 - len(inp)) + read.ljust(35 - len(read)) + definition + '\n')
-        dd = open('kanjiDict.txt', 'w')
+        dd = open('Dictionaries/onKanjiDict.txt', 'w')
         for ddd in dictionary:
             dd.write(ddd)
         dd.close()

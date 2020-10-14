@@ -5,10 +5,10 @@ katakana = ['ア', 'イ', 'ウ', 'エ', 'オ', 'カ', 'キ', 'ク', 'ケ', 'コ'
 numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '１', '２', '３', '４', '５', '６', '７', '８', '９', '０']
 punctuation = ['！', '＠', '＃', '＄', '％', '＾', '＆', '＊', '（', '）', 'ー', '＿', '＝', '＋', '「', '」', '￥', '；', '’', '、', '。', '・', '＜', '＞', '？', '｛', '｝', '｜', '｀', '〜', '/', '*', '-', '　', '	']
 
-on = open('onKanjiDict.txt', 'r')
-kun = open('kunKanjiDict.txt', 'r')
-kat = open('katakanaDict.txt', 'r')
-hir = open('hiraganaDict.txt', 'r')
+on = open('Dictionaries/onKanjiDict.txt', 'r')
+kun = open('Dictionaries/kunKanjiDict.txt', 'r')
+kat = open('Dictionaries/katakanaDict.txt', 'r')
+hir = open('Dictionaries/hiraganaDict.txt', 'r')
 
 ON = on.readlines()
 on.close()
