@@ -1,0 +1,24 @@
+スポーツ			Sports
+サッカー			Soccer
+バスケットボール		Basketball
+バスケ				Basketball
+バレーボール			Volleyball
+サーフィン			Surfing
+コーラ				Cola
+コーフィ			Coffee
+サンドイッチ			Sandwich
+アイスクリーム			Ice cream
+アイス				Ice cream
+ケーキ				Cake
+ハンバーガー			Hamburger
+ピザ				Pizza
+テレビ				Television
+バス				Bus
+カラオケ			Karaoke
+パーティー			Party
+レストラン			Restaurant
+ゲーム				Video game
+コンピュター			Computer
+レース				Race
+ニューズ			News
+ニュース			News
