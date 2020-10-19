@@ -1,36 +1,32 @@
 import sys
 import re
 
-hiragana = ['あ', 'い', 'う', 'え', 'お', 'か', 'き', 'く', 'け', 'こ', 'さ', 'し', 'す', 'せ', 'そ', 'た', 'ち', 'つ', 'て', 'と', 'は', 'ひ', 'ふ', 'へ', 'ほ', 'ま', 'み', 'む', 'め', 'も', 'や', 'ゆ', 'よ', 'ら', 'り', 'る', 'れ', 'ろ', 'わ', 'を', 'ん', 'が', 'ぎ', 'ぐ', 'げ', 'ご', 'ざ', 'じ', 'ず', 'ぜ', 'ぞ', 'だ', 'ぢ', 'づ', 'で', 'ど', 'ば', 'び', 'ぶ', 'べ', 'ぼ', 'ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ', 'ゃ', 'ゅ', 'ょ', 'っ']
-katakana = ['ア', 'イ', 'ウ', 'エ', 'オ', 'カ', 'キ', 'ク', 'ケ', 'コ', 'サ', 'シ', 'ス', 'セ', 'ソ', 'タ', 'チ', 'ツ', 'テ', 'ト', 'ハ', 'ヒ', 'フ', 'ヘ', 'ホ', 'マ', 'ミ', 'ム', 'メ', 'モ', 'ヤ', 'ユ', 'ヨ', 'ラ', 'リ', 'ル', 'レ', 'ロ', 'ワ', 'ヲ', 'ン', 'ガ', 'ギ', 'グ', 'ゲ', 'ゴ', 'ザ', 'ジ', 'ズ', 'ゼ', 'ゾ', 'ダ', 'ジ', 'ヅ', 'デ', 'ド', 'バ', 'ビ', 'ブ', 'ベ', 'ボ', 'パ', 'ピ', 'プ', 'ペ', 'ポ', 'ャ', 'ュ', 'ョ', 'ッ']
+hiragana = ['あ', 'い', 'う', 'え', 'お', 'か', 'き', 'く', 'け', 'こ', 'さ', 'し', 'す', 'せ', 'そ', 'た', 'ち', 'つ', 'て', 'と', 'な', 'に', 'ぬ', 'ね', 'の', 'ま', 'み', 'む', 'め', 'も', 'は', 'ひ', 'ふ', 'へ', 'ほ', 'や', 'ゆ', 'よ', 'ら', 'り', 'る', 'れ', 'ろ', 'わ', 'を', 'ん', 'が', 'ぎ', 'ぐ', 'げ', 'ご', 'ざ', 'じ', 'ず', 'ぜ', 'ぞ', 'だ', 'ぢ', 'づ', 'で', 'ど', 'ば', 'び', 'ぶ', 'べ', 'ぼ', 'ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ', 'ゃ', 'ゅ', 'ょ', 'っ']
+
+katakana = ['ア', 'イ', 'ウ', 'エ', 'オ', 'カ', 'キ', 'ク', 'ケ', 'コ', 'サ', 'シ', 'ス', 'セ', 'ソ', 'タ', 'チ', 'ツ', 'テ', 'ト', 'ハ', 'ヒ', 'フ', 'ヘ', 'ホ', 'マ', 'ミ', 'ム', 'メ', 'モ', 'ナ', 'ニ', 'ヌ', 'ネ', 'ノ',  'ヤ', 'ユ', 'ヨ', 'ラ', 'リ', 'ル', 'レ', 'ロ', 'ワ', 'ヲ', 'ン', 'ガ', 'ギ', 'グ', 'ゲ', 'ゴ', 'ザ', 'ジ', 'ズ', 'ゼ', 'ゾ', 'ダ', 'ジ', 'ヅ', 'デ', 'ド', 'バ', 'ビ', 'ブ', 'ベ', 'ボ', 'パ', 'ピ', 'プ', 'ペ', 'ポ', 'ャ', 'ュ', 'ョ', 'ッ']
+
 numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '１', '２', '３', '４', '５', '６', '７', '８', '９', '０']
+
 punctuation = ['！', '＠', '＃', '＄', '％', '＾', '＆', '＊', '（', '）', 'ー', '＿', '＝', '＋', '「', '」', '￥', '；', '’', '、', '。', '・', '＜', '＞', '？', '｛', '｝', '｜', '｀', '〜', '/', '*', '-', '　', '	']
 
 arg = ''
 for i in range(1, len(sys.argv)):
 	arg += sys.argv[i]
 
-odct = open('Dictionaries/onKanjiDict.txt', 'r')
+dct = open('Dictionaries/katakanaDict.txt', 'r')
 dictionary = dct.readlines()
-odct.close()
-
-kdct = open('Dictionaries/kunKanjiDict.txt', 'r')
-dictionary += dct.readlines()
-kdct.close()
-
-rdngs = open('Kanji/kanjiReadings.txt', 'r')
-readings = rdngs.readlines()
-rdngs.close()
+dct.close()
 
 kat = ''
 for i in arg:
     if i in katakana:
-        kat.append(kat)
-    elif: kat != '':
+        kat += i
+    else:
         break
 
-# TODO: convert processKanji to processKatakana	
-def processKanji(inp):
+print(kat)
+
+def processKatakana(inp):
     found = ''
     for d in dictionary:
         if inp in d:
@@ -51,27 +47,12 @@ def processKanji(inp):
                 toPrint += str(defs)
         print(toPrint)
     else:
-        toCombine = []
-        for c in inp:
-            for i in readings:
-                if c in i:
-                    temp = re.split(r'\t+', i)
-                    kanjiReadings = temp[1:]
-                    for j in range(0, len(kanjiReadings)):
-                        kanjiReadings[j] = kanjiReadings[j].strip()
-                    toCombine.append(kanjiReadings)
-                    break
-        print(toCombine)
-        combinations = generateCombinations(toCombine, 0)
-        print('Here are all the possible readings of this word:\n')
-        print(combinations)
-        read = input('Enter the proper reading: ')
         definition = input('Enter the definition: ')
-        dictionary.append(inp.ljust(20 - len(inp)) + read.ljust(35 - len(read)) + definition + '\n')
-        dd = open('Dictionaries/onKanjiDict.txt', 'w')
+        dictionary.append(inp.ljust(40 - len(inp)) + definition + '\n')
+        dd = open('Dictionaries/katakanaDict.txt', 'w')
         for ddd in dictionary:
             dd.write(ddd)
         dd.close()
-        print(inp + ' has been added to the kanji dictionary.')
+        print(inp + ' has been added to the katakana dictionary.')
 
 processKatakana(kat)
