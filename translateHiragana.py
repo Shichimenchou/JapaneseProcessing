@@ -13,18 +13,18 @@ arg = ''
 for i in range(1, len(sys.argv)):
 	arg += sys.argv[i]
 
-dct = open('Dictionaries/katakanaDict.txt', 'r')
+dct = open('Dictionaries/hiraganaDict.txt', 'r')
 dictionary = dct.readlines()
 dct.close()
 
-kat = ''
+hir = ''
 for i in arg:
-    if i in katakana:
-        kat += i
+    if i in hiragana:
+        hir += i
     else:
         break
 
-def processKatakana(inp):
+def processHiragana(inp):
     found = ''
     for d in dictionary:
         if inp in d:
@@ -47,10 +47,10 @@ def processKatakana(inp):
     else:
         definition = input('Enter the definition: ')
         dictionary.append(inp.ljust(40 - len(inp)) + definition + '\n')
-        dd = open('Dictionaries/katakanaDict.txt', 'w')
+        dd = open('Dictionaries/hiraganaDict.txt', 'w')
         for ddd in dictionary:
             dd.write(ddd)
         dd.close()
-        print(inp + ' has been added to the katakana dictionary.')
+        print(inp + ' has been added to the hiragana dictionary.')
 
-processKatakana(kat)
+processHiragana(hir)
