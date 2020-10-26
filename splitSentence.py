@@ -79,11 +79,11 @@ def findObject(arg):
         if o[0] in katakana:
             for k in KAT:
                 if h[0] == s:
-                    possibleSubjects2.append(s)
+                    possibleObjects2.append(o)
         elif o[0] in hiragana:
             for h in HIR:
                 if h[0] == s:
-                    possibleSubjects2.append(s)
+                    possibleObjects2.append(o)
         else:
             for O in ON:
                 if O[0] == o:
@@ -93,7 +93,7 @@ def findObject(arg):
                     possibleObjects2.append(o)
     if len(possibleObjects2) >= 1:
         print('Possible objects(s): ' + str(possibleObjects2))
-        ob = input('Please enter the number of the correct subject from 0 to ' + str(len(possibleObjects2)) + ': ')
+        ob = input('Please enter the number of the correct objects from 0 to ' + str(len(possibleObjects2)) + ': ')
         if ob != '' and ob >= 0 and ob < len(possibleObjects2):
             obj = possibleObjects2[ob]
             return obj
