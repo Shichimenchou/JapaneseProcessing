@@ -34,7 +34,7 @@ def processKatakana(inp):
         toPrint = definition[0] + ' can be read as: '
         possibilities = []
         for i in range(1, len(definition)):
-            if definition[i][0] in hiragana:
+            if definition[i][0] in katakana:
                 possibilities.append(definition[i])
             else:
                 toPrint += str(possibilities)
