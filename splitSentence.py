@@ -100,6 +100,11 @@ def findObject(arg):
         else:
             return ''
 
+def findVerb(arg):
+    # TODO: parse the verb at the end of the sentence
+    # TODO: match the parsed verb to plain form and definition
+    # TODO: default verb if omitted
+
 subject = findSubject(arg)
 obj = findObject(arg)
 
@@ -111,3 +116,5 @@ elif subject == '' and obj != '':
     # TODO: continue with only object
 elif subject != '' and obj != '':
     # TODO: continue with subject and object
+
+
