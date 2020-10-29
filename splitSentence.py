@@ -105,6 +105,10 @@ def findVerb(arg):
     # TODO: match the parsed verb to plain form and definition
     # TODO: default verb if omitted
 
+def findAdjectives(arg):
+    # TODO: parse sentence for known adjectives
+    # TODO: output definitions of adjectives
+
 subject = findSubject(arg)
 obj = findObject(arg)
 
